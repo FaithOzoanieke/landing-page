@@ -1,6 +1,8 @@
 // import React from 'react'
 import Image1 from "../assets/hero/Decore.png";
 import Image2 from "../assets/hero/Image.png";
+import heroSvg from "../assets/Decore.svg"
+import Navbar from  "../components/Navbar/Navbar.jsx";
 
 const ImageList = [
     {
@@ -27,7 +29,15 @@ const ImageList = [
 ]
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+      <div>
+        <div className=" flex background-container">
+        <img src={heroSvg} alt="Hero svg" className="background-image" />
+        <Navbar/>
+        </div>
+      </div>
+    
+    </div>
   )
 }
 

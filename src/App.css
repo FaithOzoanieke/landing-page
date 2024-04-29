@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 } */
+
+.hero-container {
+  /* Add any styles you want for the hero container */
+}
+
+.background-container {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  height: 100vh; /* Adjust as needed */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 80%; /* Move the image to the center horizontally */
+  transform: translateX(-50%); /* Adjust to move the image to the right */
+  width: 44.63rem; /* Set the width of the image */
+  height: 45.66rem; /* Set the height of the image */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  z-index: -1; /* Move the image behind other content */
+}
+
+

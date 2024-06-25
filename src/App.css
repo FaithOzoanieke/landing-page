@@ -1,9 +1,10 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto;
+  padding: 0rem;
+  text-align: center; */
 }
+/* 
 
 .logo {
   height: 6em;
@@ -59,7 +60,7 @@
   width: 44.63rem; /* Set the width of the image */
   height: 45.66rem; /* Set the height of the image */
   object-fit: cover; /* Ensure the image covers the entire container */
-  z-index: -1; /* Move the image behind other content */
+  z-index: -5; /* Move the image behind other content */
 }
 
 
